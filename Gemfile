@@ -83,3 +83,4 @@ end
 gem "bootstrap-sass"
 gem "sassc-rails"
 gem "bcrypt"
+gem "faker"
