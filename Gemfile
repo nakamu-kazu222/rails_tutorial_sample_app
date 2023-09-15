@@ -69,4 +69,22 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem "rails-controller-testing"
+  gem "minitest"
+  gem "minitest-reporters"
+  gem "guard"
+  gem "guard-minitest"
 end
+
+group :production do
+  gem "pg"
+end
+
+gem "bootstrap-sass"
+gem "sassc-rails"
+gem "bcrypt"
+gem "faker"
+gem "will_paginate",           "3.3.1"
+gem "bootstrap-will_paginate", "1.0.0"
+gem "active_storage_validations"
+gem "image_processing"
